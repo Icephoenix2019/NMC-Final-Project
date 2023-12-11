@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Animal Adoption Page</title>
+        <script src="js/style-change.js"></script>
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/print.css" media="print" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="keywords" content="Pets, Adoption">
+        <meta name="description" content="A website for adopting pets">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/5ef4fb0da9.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <main>
+            <header>
+                <h1>Animal Adoption:</h1>
+                <h3><em>A site for uniting pets with their furture owners!</em></h3>
+            </header>
+
+            <nav>
+                <h1>Navigation:</h1>
+                <ul id="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Adoption</a></li>
+                    <li><a href="#">Our Mission</a></li>
+                    <li><a href="#">More information</a>
+                        <ul class="submenu">
+                            <li><a href="#">Veterinary Hospitals</a></li>
+                            <li><a href="#">Food refills</a></li>
+                            <li><a href="#">Tips for future owners</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Settings</a>
+                        <ul class="submenu">
+                            <li><button onclick="themeChange()" id="themeButton">Dark mode</button></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+            <article id="mainArticle">
+                <h1>Recent Adoptions:</h1>
+                <section>
+                    <details>
+                        <summary>Rose</summary>
+                        <p>Rose is a 8-year old, Simeese cat, with a very affectionate nature. Adopted 12/8/23.</p>
+                        <img src="media/cat_image_resized.jpg" style="width:300px;height:200px" alt="Rose, the simeese cat">
+                    </details>
+                </section>
+            </article>
+
+            <article id="subArticle">
+                <h1>We need you!</h1>
+                <section>
+                    <p>We are looking for more animal lovers to join us today!</p>
+                    <p>We are currently looking for:</p>
+                    <ul>
+                        <li>Anyone Ages 16+</li>
+                        <li>Anyone who is Friendly, willing to work</li>
+                        <li>Anyone who wants/loves to be working with animals</li>
+                    </ul>
+                </section>
+            </article>
+
+            <footer>
+                <p><em>Copyright 2023 &copy; Nathaniel Hock</em></p><a class="icon" id="facebook" href="#"><i class="fa-brands fa-facebook"></i></a><a class="icon" id="youtube" href="#"><i class="fa-brands fa-youtube"></i></a>
+            </footer>
+        </main>
+    </body>
+</html>

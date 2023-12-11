@@ -1,0 +1,19 @@
+* {
+    color: black;
+    background-color: white;
+}
+
+h1, h3 {
+    color: black;
+}
+main {
+    display: block;
+}
+nav {
+    display: none;
+}
+
+script, img {
+    display: none;
+}
+    
